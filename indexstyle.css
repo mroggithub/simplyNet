@@ -1,0 +1,110 @@
+ body{
+     background-color: #202020;
+ }
+
+ #back {
+     position: absolute;
+     top:0px;
+     left:0px;
+     min-height: 100%;
+ }
+
+ html{
+     overflow: hidden;
+ }
+
+ h2 {
+     font-family: 'Raleway', "Courier New";
+     text-align: center;
+     color: gainsboro;
+     width:180px;
+     margin:auto;
+ }
+
+.main{
+    background-color: #282828;
+    box-shadow: 0 0 10px #212121;
+    border-radius: 10px;
+    padding-top:2%;
+    position: relative;
+    width: 290px;
+    height: 280px;
+    margin: auto;
+    margin-top: 15%;
+    text-align: center;
+}
+
+.main form{
+    height: 70px;
+    width: 252px;
+    margin: auto;
+    margin-top:13%;
+}
+
+input{
+    padding: 5px 10px 5px 10px;
+    height: 23px;
+    width: 230px;
+    font-family: 'Raleway', "Courier New";
+    font-size: 16px;
+    font-weight: 700;
+}
+ input:focus{
+     outline:none;
+ }
+
+#login{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top: #585858 1px solid;
+    border-left: #585858 1px solid;
+    border-right: #585858 1px solid;
+    border-bottom: none;
+}
+
+#pwd{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: #585858 1px solid;
+    border-left: #585858 1px solid;
+    border-right: #585858 1px solid;
+    border-top: #888888 1px solid;
+}
+
+
+.button{
+    position: relative;
+    top: 12px;
+    background-color: #ffffff;
+    width: 80px;
+    border-radius: 10px;
+    height: 30px;
+    margin: auto;
+
+}
+
+ .main a{
+     font-family: 'Raleway', "Courier New";
+     text-decoration: none;
+ }
+
+.button p {
+    margin: 0;
+    font-weight: 800;
+    position: relative;
+    top: 5px;
+    color: #202020;
+}
+
+.create{
+    position: relative;
+    top: 55px;
+    width: 150px;
+    margin:auto;
+}
+
+.create p{
+    margin: 0;
+    color: dimgray;
+    font-weight: 400;
+}
